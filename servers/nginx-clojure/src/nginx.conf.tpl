@@ -31,7 +31,7 @@ http {
 
         gzip       off;
 
-        jvm_options "-Djava.class.path=#{class-path}";
+        jvm_options "-server -Xmx2g -Djava.class.path=#{class-path}";
 
 
         jvm_path "#{jvm_shared_library_path}";

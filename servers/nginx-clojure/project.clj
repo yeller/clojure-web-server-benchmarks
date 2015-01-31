@@ -7,7 +7,7 @@
   :dependencies 
   [[org.clojure/clojure    "1.7.0-alpha3"]
     ]
-  :jvm-opts ["-server" "-XX:+UseConcMarkSweepGC"]
+  :jvm-opts ["-server" "-Xmx2g"]
   :profiles {:1.7.0-alpha3 {:dependencies [[org.clojure/clojure "1.7.0-alpha3"]]}}
   :main nginx-clojure
 )
